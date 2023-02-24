@@ -1,5 +1,14 @@
 {
     "files.associations": {
         "socket.h": "c"
-    }
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 4,
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "code-runner.runInTerminal": true,
+    "debug.inlineValues": "on"
 }
